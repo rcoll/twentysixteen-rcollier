@@ -1,0 +1,23 @@
+/*
+ Theme Name: Rich Collier
+ Theme URI: http://rich.blog
+ Description: Adds customization to the twentysixteen theme for rich.blog
+ Author: Rich Collier
+ Author URI: http://rich.blog
+ Template: twentysixteen
+ Version: 1.0
+*/
+
+@import url("../twentysixteen/style.css");
+
+body.page-template-page-resume div#primary { width:100%; }
+body.page-template-page-resume header.entry-header,
+body.page-template-page-resume header#masthead { display:none; }
+body.page-template-page-resume div#content { padding-top:5em; }
+
+@media print {
+	body.page-template-page-resume div#content { padding-top:0; }
+	body.page-template-page-resume footer.site-footer { display:none; }
+	body.page-template-page-resume p,
+	body.page-template-page-resume li { font-size:.7em; }
+}
