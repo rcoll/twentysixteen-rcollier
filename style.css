@@ -14,10 +14,12 @@ body.page-template-page-resume div#primary { width:100%; }
 body.page-template-page-resume header.entry-header,
 body.page-template-page-resume header#masthead { display:none; }
 body.page-template-page-resume div#content { padding-top:5em; }
+body.page-template-page-resume .sharedaddy { display:none; }
 
 @media print {
 	body.page-template-page-resume div#content { padding-top:0; }
 	body.page-template-page-resume footer.site-footer { display:none; }
 	body.page-template-page-resume p,
 	body.page-template-page-resume li { font-size:.7em; }
+	body.page-template-page-resume .sharedaddy { display:none; }
 }
