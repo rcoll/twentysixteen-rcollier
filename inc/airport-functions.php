@@ -10,7 +10,7 @@
  * 
  * @return array Array of airport objects
  */
-function rdcoll_get_trip_data( $codes ) {
+function rdcoll_get_flight_data( $codes ) {
 	$data = array();
 	$data['airports'] = array();
 	$data['distance'] = 0;
